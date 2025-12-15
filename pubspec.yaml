@@ -1,0 +1,29 @@
+name: huyhoang_web
+description: Website Dụng Cụ Y Khoa Huy Hoàng (Flutter Web)
+publish_to: 'none' # không publish lên pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.2.0
+  shared_preferences: ^2.5.3
+
+  # Flutter web không cần thêm carousel_slider nữa
+  # Nếu sau này bạn muốn thêm HTTP API, Firebase... thì thêm ở đây
+
+dev_dependencies: 
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
